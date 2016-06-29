@@ -1,65 +1,68 @@
 <!DOCTYPE html>
-<html >
-  <head>
+<html>
+
+<head>
     <meta charset="UTF-8">
     <title>Random Quote Generator</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href='https://fonts.googleapis.com/css?family=Merriweather:400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400italic' rel='stylesheet' type='text/css'>
 
-<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-    
-    
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+
     <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
-<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
 
-        <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 
-    
-    
-    
-  </head>
 
-  <body>
+
+
+</head>
+
+<body>
 
     <div class="container-fluid" id="title">
-  <h1><kbd>Random</kbd></h1>
-  <p class="italic">Quotes</p>
-</div>
-
-<div class="container-fluid" id="quote-wrapper">
-  <div>
-    <h1 id="openQuotes">"</h1>
-  </div>
-  <div id="quotes">
-  </div>
-  <div>
-    <h1 id="closeQuotes">"</h1>
-  </div>
-</div>
-
-<div class="container-fluid">
-  <div id="author">
-  </div>
-</div>
-
-<div class="container">
-  <div class="row">
-    <div class="quotebutton" onClick="getQuote()">New Quote
+        <h1><kbd>Random</kbd></h1>
+        <p class="italic">Quotes</p>
     </div>
-  </div>
-  <div class="row">
-    <div class="tweetbutton">
-      <a href="#" target="_blank" id="twitter">
-        <button type="button" class="btn btn-primary btn-sm" alt="Tweet this quote"><i class="fa fa-fw fa-twitter"></i>Tweet this</button></a>
+
+    <div class="container-fluid" id="quote-wrapper">
+        <div>
+            <h1 id="openQuotes">"</h1>
+        </div>
+        <div id="quotes">
+        </div>
+        <div>
+            <h1 id="closeQuotes">"</h1>
+        </div>
     </div>
-  </div>
-</div>
+
+    <div class="container-fluid">
+        <div id="author">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="quotebutton" onClick="getQuote()">New Quote
+            </div>
+        </div>
+        <div class="row">
+            <div class="tweetbutton">
+                <a href="#" target="_blank" id="twitter">
+                    <button type="button" class="btn btn-primary btn-sm" alt="Tweet this quote"><i class="fa fa-fw fa-twitter"></i>Tweet this</button>
+                </a>
+            </div>
+        </div>
+    </div>
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
-        <script src="js/index.js"></script>
+    <script src="js/index.js"></script>
 
-    
-    
-    
-  </body>
+
+
+
+</body>
+
 </html>
