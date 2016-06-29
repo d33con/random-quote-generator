@@ -1,0 +1,90 @@
+a:hover {
+  text-decoration: none;
+}
+
+#title {
+  border: 1px gray;
+  border-bottom-style: solid;
+  font-family: 'Oswald', sans-serif;
+  font-size: 64px;
+  padding-bottom: 30px;
+  text-align: center;
+  width: 80%;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+p.italic {
+  text-indent: 50px;
+  font-weight: 700;
+  font-style: italic;
+  color: #001F5C;
+}
+
+#quote-wrapper {
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+}
+
+#quotes {
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+  margin: auto;
+  padding: 10px 5px;
+  width: 70%;
+}
+
+#openQuotes,
+#closeQuotes {
+  font-size: 48px;
+  font-style: italic;
+  text-shadow: 2px 4px #CCCCCC;
+  margin: auto;
+  width: 80%;
+  padding-top: 30px;
+}
+
+#openQuotes {
+  text-align: left;
+}
+
+#closeQuotes {
+  text-align: right;
+  padding-top: 24px;
+}
+
+#author {
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  font-style: italic;
+  text-align: right;
+  margin: auto;
+  width: 60%;
+  border: 1px gray;
+  border-bottom-style: solid;
+  padding-bottom: 30px;
+}
+
+.quotebutton {
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  padding: 10px 5px;
+  background-color: #E0EBEB;
+  border-bottom: 2px solid #587093;
+  border-radius: 2px;
+  cursor: pointer;
+  margin: 30px auto;
+  text-align: center;
+  width: 40%;
+}
+
+.tweetbutton {
+  font-family: 'Oswald', sans-serif;
+  margin: auto;
+  padding-bottom: 10px;
+  text-align: center;
+}
